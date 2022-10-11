@@ -1,0 +1,49 @@
+.main-wrapper {
+  background: rgba(58, 59.6, 66.7, 0.1);
+}
+
+.main-wrapper h1 {
+  /* color: #4ab; */
+  color: #4087a3;
+  text-align: center;
+  font-weight: 900;
+  padding: 4rem;
+}
+
+.icon-wrapper {
+  display: grid;
+  grid-gap: 1.3rem;
+  justify-content: end;
+  align-items: center;
+}
+
+.icon-logo {
+  width: 1.5rem;
+}
+
+.progress-wrapper {
+  display: grid;
+  align-items: center;
+  grid-gap: 1.3rem;
+}
+
+.progress-container {
+  height: 1.25rem;
+  width: 100%;
+  background: #e0e0de;
+}
+
+.progress-bar-style {
+  height: 100%;
+  background: #457b9d;
+  text-align: center;
+  transition: width 1s ease-in-out;
+}
+
+.label-style {
+  padding: 0.3125rem;
+  color: #fff;
+  font-weight: bold;
+  /* hidden the number of skills */
+  display: none;
+}

@@ -1,0 +1,83 @@
+.main-services-wrapper {
+  background: #264653;
+  height: 100%;
+}
+
+.services-wrapper {
+  padding: 10rem 0 0;
+}
+
+.services-wrapper h1 {
+  text-transform: uppercase;
+  color: #4ab;
+  text-align: center;
+  font-weight: 900;
+  margin-bottom: 5rem;
+}
+
+.icon-wevdev::before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f1c9";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.icon-design::before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f5ae";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.icon-google-adwords::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f1a0";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.icon-smm::before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f0c0";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.icon-app-dev::before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f3cd";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.icon-support::before {
+  font-family: "Font Awesome 5 Pro";
+  content: "\f2a0";
+  font-size: 1.7em;
+  color: tomato;
+}
+
+.service-box {
+  display: grid;
+  justify-content: center;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  height: 14rem;
+  text-align: center;
+  background: #fff;
+  border-bottom: 2px solid tomato;
+}
+
+.services-wrapper .row .col-md-4 {
+  margin-bottom: 3rem;
+}
+
+.service-box span {
+  margin-bottom: 1rem;
+}
+
+.service-box h5 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}

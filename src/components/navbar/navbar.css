@@ -1,0 +1,31 @@
+nav {
+  background: #256;
+}
+
+nav a.nav-link {
+  color: #fff !important;
+  font-size: 0.8rem;
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  border-top: 0.1875rem solid #256;
+}
+
+.navbar-nav > li > a:active,
+.navbar-nav > li > a:focus {
+  border-top: 0.1875rem solid #4ab !important;
+  color: #4ab !important;
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid #4ab !important;
+  color: #4ab !important;
+}

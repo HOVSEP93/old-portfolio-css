@@ -1,0 +1,100 @@
+:root {
+  /* --dark-purple: #202330;
+  --light-purple: #7b84aa; */
+  /* --dark-color: #264653;
+  --light-color: #2a9d8f; */
+  /* --dark-color: #354f52;
+  --light-color: #588b8b; #577590 ,#84a59d*/
+  /* main color #4087a3 */
+  /* --dark-color: #264653;
+  --light-color: #457b9d; */
+  --dark-color: #264653;
+  --light-color: #457b9d;
+}
+
+.header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 105vw;
+  height: 105vh;
+  background: linear-gradient(180deg, var(--dark-color), var(--light-color));
+  /* background-color: #264653; */
+}
+
+.header img {
+  width: 10rem;
+  border-radius: 50%;
+  justify-self: center;
+  align-self: flex-end;
+  border: 1px solid rgba(97, 105, 136, 0.7);
+  padding: 0.5rem;
+  z-index: 1;
+}
+
+#main-title {
+  padding: 2rem;
+  align-self: flex-start;
+  width: 43.75rem;
+}
+
+/********************** ICONS *******************************/
+.icons-wrapper {
+  display: flex;
+  justify-content: center;
+  align-self: flex-start;
+  padding: 0.7rem;
+  overflow: hidden;
+}
+
+.item {
+  width: 40px;
+  height: 40px;
+  margin: 0.7rem;
+}
+
+.item-1 {
+  background: url(icons/html5-logo.svg) no-repeat;
+}
+
+.item-2 {
+  background: url(icons/css3-logo.svg) no-repeat;
+}
+.item-3 {
+  background: url(icons/js-logo-black.svg) no-repeat;
+}
+.item-4 {
+  background: url(icons/react-logo-black.svg) no-repeat;
+}
+.item-5 {
+  background: url(icons/node-dot.svg) no-repeat;
+}
+.item-6 {
+  background: url(icons/redux-logo-black.svg) no-repeat;
+}
+.item-7 {
+  background: url(icons/sass.svg) no-repeat;
+}
+.item-8 {
+  background: url(icons/git-logo.svg) no-repeat;
+}
+
+/******************** MEDIA QUERY ****************************/
+
+@media (max-width: 670px) {
+  #main-title {
+    width: 33.75rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+  #main-title {
+    width: 23.75rem;
+  }
+
+  .item {
+    width: 20px;
+    height: 20px;
+    margin: 0.7rem;
+  }
+}

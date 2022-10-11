@@ -1,0 +1,106 @@
+/* body {
+  background-color: tomato;
+} */
+
+.about {
+  padding: 4rem 1rem;
+  /* background-color: rgba(58, 59.6, 66.7, 0.1) !important; */
+}
+
+.itype {
+  color: crimson !important;
+}
+
+.about h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about h1 {
+  color: #4ab;
+  text-align: center;
+  font-weight: 900;
+  margin: 0 0 4rem;
+}
+
+h6 {
+  font-family: "Patrick Hand", cursive;
+  font-weight: bolder !important;
+}
+
+/* .aboutP {
+  color: #000 !important;
+} */
+
+.about p {
+  text-align: left;
+  /* color: rgb(36, 36, 36); */
+  color: #023047;
+  letter-spacing: 0.5px;
+}
+
+.photo-wrapper {
+  position: relative;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.photo-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.photo-wrapper:hover .photo-overlay {
+  width: 100%;
+}
+
+.icon-button {
+  margin: 0.5rem;
+}
+
+.photo-text {
+  position: absolute;
+  overflow: hidden;
+  top: 90%;
+  left: 50%;
+  width: 300px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.icon:hover {
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgba(195, 205, 252, 0.7);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(195, 205, 252, 0.7);
+    -webkit-box-shadow: 0 0 0 0 rgba(195, 205, 252, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(195, 205, 252, 0);
+    -webkit-box-shadow: 0 0 0 10x rgba(195, 205, 252, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(195, 205, 252, 0);
+    -webkit-box-shadow: 0 0 0 0 rgba(195, 205, 252, 0);
+  }
+}
+
+.qoute-about {
+  color: crimson !important;
+  font-size: 25px;
+  font-weight: bold;
+}

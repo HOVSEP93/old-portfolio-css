@@ -1,0 +1,29 @@
+footer {
+  background: #264653;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
+ul li a {
+  color: #fff;
+}
+
+ul li a:hover {
+  color: #e9c46a;
+  text-decoration: none;
+}
+
+.colorName {
+  color: #e9c46a;
+}
+
+.icon {
+  margin: 5px;
+}
+
+/* .icon:hover {
+  box-shadow: red;
+} */

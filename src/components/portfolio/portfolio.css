@@ -1,0 +1,199 @@
+body {
+  background-color: rgba(58, 59.6, 66.7, 0.1);
+}
+
+.container-fluid p.icon-links .share-btn {
+  color: #e9c46a !important;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 100%;
+  height: 100%;
+  list-style: none;
+  text-align: center;
+}
+
+.grid figure {
+  margin: 1rem;
+  float: left;
+  overflow: hidden;
+  width: 30rem;
+  max-height: 16.125rem;
+  text-align: center;
+}
+
+.grid figure img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 1em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+  backface-visibility: hidden;
+}
+
+figure.effect figcaption {
+  margin-top: -4rem;
+  padding: 0.5em;
+  height: 4rem;
+  background: #457b9d;
+  color: #f1faee;
+  /* color: #e9c46a; */
+  transition: transform 0.35s;
+  transform: translate3d(0, 100%, 0);
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 800;
+}
+
+.grid figure h2 span {
+  font-weight: 300;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 0.0625rem;
+  font-size: 68.5%;
+}
+
+figure.effect h2 {
+  float: left;
+}
+
+#portfolio .share-btn {
+  color: #e9c46a;
+  float: right;
+  font-size: 1.4em;
+}
+
+/* .demo {
+  color: #e9c46a;
+} */
+
+figure.effect p.description {
+  bottom: 5em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  backface-visibility: hidden;
+  transition: opacity 0.35s;
+}
+
+figure.effect h2,
+figure.effect p.icon-links .share-btn {
+  transition: transform 0.35s;
+  transform: translate3d(0, 200%, 0);
+}
+
+figure.effect:hover figcaption,
+figure.effect:hover h2,
+figure.effect:hover p.icon-links .share-btn {
+  transform: translate3d(0, 0, 0);
+}
+
+.icon-facebook::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f39e";
+}
+
+.icon-twitter::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f099";
+}
+
+.icon-linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1";
+}
+
+.icon-reddit::before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f281";
+}
+
+figure.effect p.icon-links .share-btn span::before {
+  display: inline-block;
+  padding: 0.5rem 0.625rem;
+}
+
+figure.effect:hover p.icon-links .share-btn:hover,
+figure.effect:hover p.icon-links .share-btn:focus {
+  color: #e9c46a !important;
+}
+
+figure.effect:hover p.icon-links .share-btn:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+figure.effect:hover p.icon-links .share-btn:nth-child(2) {
+  transition-delay: 0.15s;
+}
+
+figure.effect:hover p.icon-links .share-btn:first-child {
+  transition-delay: 0.2s;
+}
+
+figure.effect:hover h2 {
+  transition-delay: 0.06s;
+}
+
+figure.effect:hover p.description {
+  opacity: 1;
+  background: #457b9d;
+  position: absolute;
+}
+
+.demo-links {
+  text-decoration: none;
+  color: #f1faee;
+}
+
+.demo-links:hover {
+  color: #e9c46a;
+}
+
+/* style-links */
+/* .demo-links::before {
+  content: "";
+  text-decoration: none;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #e9c46a;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+  opacity: 0.7;
+}
+
+.demo-links:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.demo-links:hover {
+  color: #e9c46a;
+} */
+
+/********************* MEDIA QUERY ************************/
+@media (max-width: 560px) {
+  .grid figure h2 {
+    font-size: x-large;
+  }
+}
